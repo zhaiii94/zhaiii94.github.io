@@ -17,14 +17,18 @@ body{
 
 #home{
     z-index: 0;
+    position: fixed;
 
     
 }
 
 .tagline{
     margin-top: 200px;
+    margin-left: 100px;
 }
-
+.taglineimg{
+    margin-top: 200px;
+}
 .tagline h1{
     font-size: 48px;
     font-weight: 800;
@@ -32,8 +36,6 @@ body{
     letter-spacing: 6px;
     line-height: 72px;
 }
-
-
 
 .btn-paper{
     display: inline-block;
@@ -45,7 +47,19 @@ body{
     border-radius: 50px;
     border: none;
     margin-top: 40px;
-    box-shadow: 0px 4px 60px rgba(36, 212, 233, 0.5);
+    box-shadow: 0px 4px 60px rgba(36, 212, 233, 0.4);
+    -webkit-transition: ease all 0.2s;
+    -moz-transition: ease all 0.2s;
+    -o-transition: ease all 0.2s;
+    transition: ease all 0.2s;
+}
+.btn-paper:hover{
+    margin-top: 35px;
+    box-shadow: 10px 20px 80px rgba(68, 18, 185, 0.8);
+    -moz-transition:  ease all 0.2s; /* Firefox 4 */
+    -webkit-transition:  ease all 0.2s; /* Safari 和 Chrome */
+    -o-transition:  ease all 0.2s;
+    transition: ease all 0.2s;  
 }
 
 /* page2 */
@@ -58,22 +72,42 @@ body{
     background: #fff;
     top:100%;
 }
+.list{
+    padding: 20px;
+}
+    .pointitle {
+        margin-top: 10px;
+        margin-bottom: 4px;
+        font-size: 24px;
+        color: #414c5b;
+        letter-spacing: 1px;
+        padding-bottom: 15px; }
+        .poindesc {
+            font-size: 12px;
+            color: #7e8899;
+            font-weight: 200;
+            letter-spacing: 2px;
+            line-height: 28px; }
 
 .about{
-    margin-top: 200px;
+    margin-top: 160px;
 }
     .about h1{
-        font-size: 48px;
+        font-size: 60px;
         font-weight: 800;
         color: #292729;
-        letter-spacing: 6px;
-        line-height: 72px;
+        letter-spacing: 4px;
+        line-height: 82px;
     }
 
 #rectangle
 {
-width:140px;
-height:10px;
-background-color:#4F87C2;
+width:90px;
+height:8px;
+background-color:#DD3491;
 text-align:center;
+margin-top: 16px;
 }
+
+.iconpoint {
+    width: 80px; }
