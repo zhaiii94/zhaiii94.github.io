@@ -2,39 +2,35 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,800,900,1000);
 html,body{
     height: 100%;
+    background: linear-gradient(to bottom right, #7275ee , #390975);
 }
 /* page1 */
-
+.body{
+    font-family: "Montserrat", sans-serif;
+}
 header{
     position: relative;
 }
-body{
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom right, #7275ee , #390975);
-    font-family: "Montserrat", sans-serif;
-}
-
 #home{
     z-index: 0;
     position: fixed;
-
     
 }
 
 .tagline{
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 100px;
 }
 .taglineimg{
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .tagline h1{
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 800;
     color: #fff;
     letter-spacing: 6px;
-    line-height: 72px;
+    line-height: 76px;
+
 }
 
 .btn-paper{
@@ -48,18 +44,18 @@ body{
     border: none;
     margin-top: 40px;
     box-shadow: 0px 4px 60px rgba(36, 212, 233, 0.4);
-    -webkit-transition: ease all 0.2s;
-    -moz-transition: ease all 0.2s;
-    -o-transition: ease all 0.2s;
-    transition: ease all 0.2s;
+    -webkit-transition: ease all 0.3s;
+    -moz-transition: ease all 0.3s;
+    -o-transition: ease all 0.3s;
+    transition: ease all 0.3s;
 }
 .btn-paper:hover{
     margin-top: 35px;
     box-shadow: 10px 20px 80px rgba(68, 18, 185, 0.8);
-    -moz-transition:  ease all 0.2s; /* Firefox 4 */
-    -webkit-transition:  ease all 0.2s; /* Safari 和 Chrome */
-    -o-transition:  ease all 0.2s;
-    transition: ease all 0.2s;  
+    -moz-transition:  ease all 0.3s; /* Firefox 4 */
+    -webkit-transition:  ease all 0.3s; /* Safari 和 Chrome */
+    -o-transition:  ease all 0.3s;
+    transition: ease all 0.3s;  
 }
 
 /* page2 */
@@ -72,6 +68,7 @@ body{
     background: #fff;
     top:100%;
 }
+
 .list{
     padding: 20px;
 }
@@ -91,12 +88,13 @@ body{
 
 .about{
     margin-top: 160px;
+    margin-bottom: 120px;
 }
     .about h1{
-        font-size: 60px;
-        font-weight: 800;
-        color: #292729;
-        letter-spacing: 4px;
+        font-size: 70px;
+        font-weight: 900;
+        color: #424c5c;        
+        letter-spacing: 16px;
         line-height: 82px;
     }
 
@@ -111,3 +109,81 @@ margin-top: 16px;
 
 .iconpoint {
     width: 80px; }
+/*pge3*/
+
+.portfolio{
+    background: #EFF0F5
+}
+.fixedmax{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.contents-header{
+    padding-top: 30px; 
+    margin-top: 100px;
+}
+.contents-title {
+    color: #424c5c;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+    line-height: 88px; }
+
+#rectangle1{
+    width:120px;
+    height:8px;
+    background-color:#DD3491;
+    text-align:center;
+    margin-top: 16px;
+}
+.contents-body{
+    margin: 0 -15px;
+}
+.thumb{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.item{
+    position: relative;
+}
+    .item img{
+        cursor: pointer;
+        display: block;
+        height: auto;
+        width: 100%;
+        border-radius: 15px;
+        -webkit-transition: ease all 0.3s;
+        -moz-transition: ease all 0.3s;
+        -o-transition: ease all 0.3s;
+        transition: ease all 0.3s;
+    }
+        .item img:hover{
+            transform: scale(1.05);
+            box-shadow: 10px 20px 80px rgba(156, 156, 156, 0.8);
+            -moz-transition:  ease all 0.3s; /* Firefox 4 */
+            -webkit-transition:  ease all 0.3s; /* Safari 和 Chrome */
+            -o-transition:  ease all 0.3s;
+            transition: ease all 0.3s;  
+        }
+    .item h3{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        color: #414c5b;
+        letter-spacing: 1px;
+        padding-bottom: 2px;
+    }
+        .item p{
+            font-size: 14px;
+            color: #7e8899;
+            font-weight: 300;
+            letter-spacing: 2px;
+            line-height: 28px; 
+        }
+.box{
+    box-shadow: 0px 10px 40px rgba(219, 219, 219, 0.8);
+    border-radius: 15px;
+    background-color: #EFF0F5;
+}
