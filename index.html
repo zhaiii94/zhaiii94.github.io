@@ -4,35 +4,52 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,800,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="body">
+    <!-- page1 -->
     <div class="container" id="home">
         <header>
-          <nav></nav>
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-              <div class="taglineimg">
-                <h1>Img</h1>
-                <form action="zhaiii@aliyun.com">
-                </form>
+            <nav class="navbar navbar-default navbar-static-top ">
+                <div class="fixed-layout">
+                  <div class="navbar-header">
+                  <a class="navbar-brand top" href="#home"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                  <ul class="nav navbar-nav">
+                    <li class=""><a href="#home">HOME</a></li>
+                        <li><a href="#whatido">WHAT I DO</a></li>
+                        <li><a href="#portofolio">WORKS</a></li>
+                        <li><a href="#daily">DAILY</a></li>
+                  </ul>
+                </div>
+                </div>
+              </nav>
+              <div class="z">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                <div class="taglineimg">
+                  <form action="zhaiii@aliyun.com">
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                <div class="tagline">
+                  <h1>ZHAIII <br>IS HERE<br>I'M A <br> DESIGNER</h1>
+                  <form action="mailto:hello@paperpillar.com">
+                    <button class="btn-paper" type="submit">CONTACT ME</button>
+                  </form>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-              <div class="tagline">
-                <h1>ZHAIII <br>IS HERE<br>I'M A <br> DESIGNER</h1>
-                <form action="mailto:hello@paperpillar.com">
-                  <button class="btn-paper" type="submit">CONTACT ME</button>
-                </form>
-              </div>
             </div>
-          </div>
         </header>
     </div>
-    <section class="main">
+     <!-- page2 -->
+    <section class="main" id="whatido">
       <div class="container about">
         <div class="row">
           <div class="col-md-6">
@@ -54,7 +71,7 @@
                   UI/UX design is my first love, however,
                   I have multiple related skills and creative talents.
                   I believe that there are a variety of methods that can
-                  be used in the design process
+                  be used in the design process.
                 </div>
               </div>
             </div>
@@ -90,6 +107,7 @@
           </div>
         </div>
       </div>
+       <!-- page3 -->
       <div class="portfolio">
         <div class="container fixedmax">
           <div class="row">
@@ -104,25 +122,31 @@
                   <div class="row">
                       <div class="col-md-4">
                         <div class="item">
-                          <div class="box">
-                            <img src="./img/shot1.png" alt="">
-                          </div>
-                          <h3>title</h3>
-                          <p>lalalalala</p>
+                          <a href="https://v.qq.com/iframe/player.html?vid=s0529zgeuyj&tiny=0&auto=0" target="blank">
+                            <div class="box">
+                              <img src="./img/png1.png" alt="">
+                            </div>
+                          </a>
+                          <h3>WeChat Ecological Hotel</h3>
+                          <p>Ui , Ux , Animation</p>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="item">
                             <div class="box">
                               <img src="./img/shot2.png" alt="">
-                            </div>                    
+                            </div>   
+                            <h3>title</h3>
+                            <p>lalalalala</p>               
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="item">
                             <div class="box">
                               <img src="./img/shot3.png" alt="">
-                            </div>                      
+                            </div>
+                            <h3>title</h3>
+                            <p>lalalalala</p>                      
                         </div>
                       </div> 
                       <div class="col-md-4">
@@ -130,20 +154,26 @@
                             <div class="box">
                               <img src="./img/shot1.png" alt="">
                             </div>
+                            <h3>title</h3>
+                            <p>lalalalala</p>  
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="item">
                               <div class="box">
                                 <img src="./img/shot2.png" alt="">
-                              </div>                    
+                              </div>
+                              <h3>title</h3>
+                              <p>lalalalala</p>
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="item">
                               <div class="box">
                                 <img src="./img/shot3.png" alt="">
-                              </div>                      
+                              </div>
+                              <h3>title</h3>
+                              <p>lalalalala</p>
                           </div>
                         </div> 
                   </div>  
@@ -154,5 +184,6 @@
     </section>
   <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/function.js"></script>
   </body>
 </html>
