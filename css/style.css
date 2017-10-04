@@ -239,3 +239,33 @@ header .navbar {
       color: black; }
       header .navbar.scrolled .navbar-collapse a:hover, header .navbar.scrolled .navbar-collapse a:focus {
         color: #afb1d7; }
+
+
+        header {
+            width: 100%;
+            height: 800px;
+            position: relative; }
+            header .navbb {
+                z-index: 7;
+                left: 0;
+                padding: 20px 65px;
+                background-color: #fff;
+                border-bottom: none;
+                position: fixed;
+                width: 100%;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s; }
+                header .navbb .navbb-collapse {
+                  float: right; }
+                  header .navbb .navbb-collapse li a {
+                    font-family: "Montserrat", sans-serif;
+                    color: #afb1d7;
+                    letter-spacing: 2px;
+                    font-size: 12px;
+                    font-weight: 200;
+                    margin-left: 25px; }
+                    header .navbb .navbb-collapse li a:hover, header .navbb .navbb-collapse li a:focus {
+                      color: #fff; }
+

@@ -1,0 +1,50 @@
+/* HTML Tags */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,800,900,1000);
+html,body{
+    height: 100%;
+}
+/* page1 */
+.body{
+    font-family: "Montserrat", sans-serif;
+    background: #f9f9f9;
+}
+header{
+    width: 100%;
+    margin:0 auto;
+}
+/*navbar*/
+.navbar-brand {
+    margin-top: 13px;
+    position: absolute; }
+    .navbar-brand.top {
+      background: url(../img/logo_color.png) no-repeat;
+      background-size: contain; }
+    .navbar-brand.scroll {
+      background: url(../img/logo_color.png) no-repeat;
+      background-size: contain; }
+
+header {
+width: 100%;
+height: 800px;
+position: relative; }
+header .navbar {
+    z-index: 7;
+    left: 0;
+    padding: 20px 65px;
+    background-color: transparent;
+    border-bottom: none;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.img{
+    width: 100%;
+}
+
+.top{
+    padding-top: 90px;
+}
