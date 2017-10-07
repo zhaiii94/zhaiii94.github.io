@@ -12,6 +12,10 @@ header{
     width: 100%;
     margin:0 auto;
 }
+.fixed-layout {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .z{
     position: fixed;
     margin:auto;
@@ -55,12 +59,14 @@ header{
 }
 .btn-paper:hover{
     margin-top: 35px;
-    box-shadow: 10px 20px 80px rgba(68, 18, 185, 0.8);
+    box-shadow: 0px 10px 60px rgba(36, 212, 233, 0.4);
     -moz-transition:  ease all 0.3s; /* Firefox 4 */
     -webkit-transition:  ease all 0.3s; /* Safari 和 Chrome */
     -o-transition:  ease all 0.3s;
     transition: ease all 0.3s;  
 }
+
+
 
 /* page2 */
 
@@ -240,3 +246,37 @@ header .navbar {
       header .navbar.scrolled .navbar-collapse a:hover, header .navbar.scrolled .navbar-collapse a:focus {
         color: #afb1d7; }
 
+footer {
+  background-color: #3C3E63;
+  z-index: 2;
+  color: #fff;
+  padding-bottom: 50px; }
+  footer .row {
+    margin: 0; }
+  footer .left {
+    padding: 70px 0 30px 200px; }
+    footer .left h3 {
+      font-weight: 400;
+      letter-spacing: 4px;
+      line-height: 28px; }
+    footer .left p {
+      font-weight: 200;
+      letter-spacing: 5px;
+      line-height: 28px;
+      color: #afb1d7; }
+  footer .right img {
+    padding: 70px 0 30px 200px;
+    width: 100%; }
+  footer .right button {
+    position: absolute;
+    top: 30%;
+    left: 30%; }
+
+    .imgsize{
+        width: 30px;
+        padding-bottom: 5px;
+    }
+
+    .btnsize{
+        padding-top: 200px;
+    }
