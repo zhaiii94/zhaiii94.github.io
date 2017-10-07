@@ -69,7 +69,6 @@ header{
 
 
 /* page2 */
-
 .main{
     width: 100%;
     z-index: 2;
@@ -200,6 +199,9 @@ margin-top: 16px;
     border-radius: 15px;
     background-color: #EFF0F5;
 }
+.boxn{
+    
+}
 /*navbar*/
 .navbar-brand {
     margin-top: 13px;
@@ -280,3 +282,18 @@ footer {
     .btnsize{
         padding-top: 200px;
     }
+.aboutme1{
+    font-size: 18px;
+    color: #575b64;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.aboutme2 {
+    font-size: 14px;
+    color: #6f7581;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding-bottom: 200px; }
